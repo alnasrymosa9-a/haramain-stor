@@ -1,0 +1,21 @@
+{
+  "name": "الحرمين للعود والعطور",
+  "short_name": "الحرمين",
+  "description": "متجر الحرمين للعود والعطور ومستلزمات البخور - اليمن",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080812",
+  "theme_color": "#d4af37",
+  "orientation": "portrait",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "المنتجات", "url": "/?page=products" },
+    { "name": "العروض", "url": "/?page=offers" }
+  ],
+  "categories": ["shopping", "lifestyle"]
+}
