@@ -3,7 +3,7 @@
  */
 
 import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
-import { Product, Order, OrderItem, CartItem, Page, OrderStatus } from './types';
+import { Product, Order, CartItem, Page, OrderStatus } from './types';
 import { MOCK_PRODUCTS, MOCK_ORDERS, WHATSAPP_NUMBER } from './data';
 import { supabase, isSupabaseConfigured } from './supabase';
 
